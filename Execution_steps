@@ -1,0 +1,12 @@
+Steps to run the scripts:
+
+Training script- It will train the model and save the built model.
+1 - In the training script, change the value of path given in train variable. 
+2 - Point it to the path where the training data csv is placed.
+3 - Set the path where the model needs to be stored in the end of the script. Be default, it gets saved to the working directory of R.
+
+
+Prediction script- Loads the model and returns a csv with results
+1 - Change the path of load to the path where the model is stored. Step 3 in training
+1 - Change the path of test variable.
+2 - Point it to the path where the test data is placed.
