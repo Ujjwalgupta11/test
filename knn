@@ -107,9 +107,3 @@ knn_mod<- knn(train = dat_train, test = dat_test,
                       cl = dat_train$CASE_STATUS, k = 11)
 CrossTable(x = dat_train$CASE_STATUS, y = dat_test$CASE_STATUS,
            prop.chisq=FALSE)
-#library(C50)
-#model_decTree = C50::C5.0(train[-15], train$CASE_STATUS, trails = 1)
-#------------------------------------------------------------------------------------
-#build model
-
-
